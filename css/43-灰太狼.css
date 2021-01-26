@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 320px;
+    height: 480px;
+      background: url("../imgs/game_bg.jpg");
+    margin:50px auto;
+    position: relative;
+}
+.container>h1{
+    color: white;
+    margin-left: 60px;
+}
+.container .progress{
+    width: 180px;
+    height: 16px;
+    background: url("../imgs/progress.png") no-repeat 0 0;
+    position: absolute;
+    top: 66px;
+    left: 63px;
+}
+.container  .start{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#E55C3D,#C50000);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+}
+.container .rules{
+    width: 100%;
+    height: 20px;
+    background-color: #ccc;
+    position: absolute;
+    top: 480px;
+    text-align: center;
+}
+.container .rule{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 1, 1,0.5);
+    text-align: center;
+    display: none;
+}
+.container .rule p{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+
+}
+.container .rule p:first-child{
+    margin-top: 100px;
+}
+.container .rule a{
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 130px;
+  
+}
+.container .rule a:hover{
+    text-decoration: none;
+    
+}
+.mask{
+
+    background-color: rgba(2, 1, 1,0.5);
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    display: none;
+    
+}
+.mask h1{
+margin-left: 55px;
+    margin-top: 45px;
+    color: #ec8c06;
+     text-shadow: 3px 3px 0 white;
+
+
+}
+.mask button{
+    width: 150px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#31a7e5, #3daae5);
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    top: 200px;
+    left: 50%;
+    margin-left: -75px;
+    position: absolute;
+}
